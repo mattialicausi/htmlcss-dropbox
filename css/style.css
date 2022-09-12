@@ -328,9 +328,61 @@ h4.padding-sotto{
         /* FINE SEZIONE 2 */
 
 
+            /* SEZIONE 3 */
+    
+#container-sezione-3{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    min-height: 513px;
+}
+
+.sezione-3{
+    position: relative;
+}
+
+.left-sezione-3 img{
+    width: 600px;
+}
+
+.left-sezione-3{
+    max-width: 70%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.right-sezione-3{
+    max-width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 60px;
+}
+
+        /* MODIFICO ITEMS SECTION 3 */
+    
+.titolo-section-3{
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.btn-sezione-3{
+    margin-top: 40px;
+    color: grey;
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    padding-top: 10px;
+}
+
+        /* FINE SEZIONE 3 */
 
 
 
+
+
+        
 
 
 
