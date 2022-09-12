@@ -151,18 +151,105 @@ h1{
 
 .flex-section-1{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: stretch;
 }
 
-.container-piani{
-    width: calc(100 / 3);
+.generale{
+    border-bottom: 1px solid grey;
 }
 
+/* .container-piani{
+    width: calc((100% - 20px) / 3);
+} */
+
 .border-piani{
-    border: 1px solid black;
+    border: 1px solid grey;
     padding: 20px;
+    margin: 10px;
+    
 }
+
+.piano h4{
+    font-size: 20px;
+}
+
+.sottotitolo-h4{
+    font-weight: bold;
+}
+.tempo-sottotitolo-h4{
+    color: grey;
+}
+
+.btn-abbonamenti{
+    background-color: var(--blue-link);
+    padding: 5px;
+    padding-top: 10px;
+    color: var(--white);
+    text-align: center;
+    line-height: center;
+    margin-bottom: 20px;
+}
+
+.linea-grigia-abbonamenti{
+    position: relative;
+}
+.linea-bordo-grigio{
+   border: 1px solid grey;
+   margin-bottom: 30px;
+
+}
+
+.box-bianco-linea-grigia{
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+
+h5{
+    font-size: 17px;
+}
+
+.fa-check{
+    color: var(--blue-link);
+}
+
+.padding-sotto{
+    padding-bottom: 15px;
+}
+
+
+
+        /* MODIFICO SPECIFICHE SECTION 1 */
+
+        /* MODIFICO BUTTON */
+
+h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.radio-btn-section1{
+    font-size:20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.space-btn-section1{
+    padding-left: 20px;
+}
+
+.spazio-destra-sinistra{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+        /* FINE SEZIONE 1 */
+
+
 
 
 
