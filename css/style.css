@@ -249,10 +249,72 @@ h2{
 
         /* FINE SEZIONE 1 */
 
+                /* SEZIONE 2 */
+
+            /* GENERALI */
+
+.container-sezione-2{
+    border: 1px solid grey;
+    padding: 20px 0;
+    margin: 20px 0;
+    width: 100%;
+}
+.contenitore-sezione-2{
+    width: 100%;
+    position: relative;
+    min-height: 200px;
+}
 
 
 
+        /* CREO LEFT RIGHT PER DIVIDERE WIDTH IN 30 E 70 % */
 
+#sezione-2-left{
+    max-width: 70%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#sezione-2-right{
+    max-width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.spazio-sezione-2{
+    padding: 20px;
+}
+
+        /* ITEMS SEZIONE 2 */
+
+.btn-sezione-2{
+    background-color: var(--blue-link);
+    color: var(--white);
+    padding: 10px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#sezione-2-left h4{
+    font-size: 25px;
+}
+
+.sottotitolo-sezione-2{
+    font-weight: bold;
+}
+
+
+#icona-sezione-2{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+        /* FINE SEZIONE 2 */
 
 
 
