@@ -1,4 +1,25 @@
 /* UTILITY */
+
+:root{
+    --light-blue: #B4D0E7;
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #0061FF;
+    --grigio: #A1A1A2;
+    --blue-link: #7460F5;
+    /* colori per i box */
+
+    --beige: #A2D39B;
+    --viola: #0093CE;
+    --marrone: #61082B;
+    --rosso: #FF1C1C;
+    --bianco-sporco: #F5F5F5;
+    --rosso2: #D5001F;
+    --viola2: #0D2481;
+    --giallo: #FFD830;
+   
+}
+
 *{
     margin: 0;
     padding: 0;
