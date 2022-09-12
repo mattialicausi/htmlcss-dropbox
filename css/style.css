@@ -501,6 +501,25 @@ h4.padding-sotto{
 
         /* FINE SEZIONE 7 */
 
+        /*  INIZIO SEZIONE 8 */
+
+#container-sezione-8{
+    max-width: 100%;
+    margin: 150px auto;
+}
+
+.domanda{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.linea-sezione-7{
+    border: 1px solid black;
+}
+
+.spazio-sezione-8{
+    padding-left: 300px;
+}
 
 
 
