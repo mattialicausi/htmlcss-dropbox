@@ -35,15 +35,11 @@ body{
     flex-flow: row wrap;
 }
 
-
-
 .debug{
     border: 1px solid black;
 }
 
         /* HEADER */
-
-
 
 header{
     background-color: var(--light-blue);
@@ -144,6 +140,55 @@ h1{
     max-height: 40px;
     padding: 8px;
 }
+
+        /* MODIFICO CONTAINER GENERALE DELLE SECTION */
+
+.container-section{
+    padding-top: 200px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.flex-section-1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+
+.container-piani{
+    width: calc(100 / 3);
+}
+
+.border-piani{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
