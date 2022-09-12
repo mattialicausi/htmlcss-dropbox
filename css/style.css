@@ -156,6 +156,7 @@ footer{
     background-color: var(--black);
     height: 500px;
     color: white;
+    font-size: 15px;
 }
 
 .container-footer{
@@ -173,7 +174,8 @@ footer{
 }
 
 .titolo-lista-footer{
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
         /* CREO UNA LINEA CORTA METTENDO UN BOX CON COLORE BG SOPRA AD UN BOX CON MARGINE GRIGIO USANDO Z INDEX */
@@ -198,6 +200,12 @@ footer{
 
         /* FINE LINEA */
 
+.lingua{
+    padding-top: 20px;
+    color: grey;
+    font-size: 15px;
+}
+      /* FINE FOOTER */
 
 
 
