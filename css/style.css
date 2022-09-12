@@ -39,6 +39,14 @@ body{
     border: 1px solid black;
 }
 
+    /* FLEXBOX PER SEZIONE 4 */
+
+.flexbox-4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
         /* HEADER */
 
 header{
@@ -378,11 +386,41 @@ h4.padding-sotto{
 
         /* FINE SEZIONE 3 */
 
+            /* SEZIONE 4 */
+
+        /* GENERALI */
+
+#container-sezione-4{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.container-cards-sezione-4 img{
+    width: 250px;
+    padding-bottom: 30px;
+
+}
+.container-cards-sezione-4{
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
+        /* MODIFICO ITEMS SEZIONE 4 */
+
+.sottotitolo-sezione-4{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+        /* FINE SEZIONE 4 */
+
+       /* INIZIO SEZIONE 5 */
 
 
 
 
-        
+
 
 
 
