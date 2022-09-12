@@ -51,7 +51,7 @@ body{
         /* FLEXBOX PER SEZIONE 6 */
 .flexbox-6{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
 }
 
@@ -448,21 +448,57 @@ h4.padding-sotto{
 
 .sottocontainer-sezione-6{
     width: calc(100% / 3);
-    background-color: yellow;
-    height: 500px;
+    height: 300px;
 }
 
 #container-sezione-6{
     max-width: 1440px;
-    background-color: red;
 }
-
 
 
 .dimensione-sezione-6{
     width: 100%;
     margin-bottom: 150px;
 }
+
+.sottocontainer-sezione-6 img{
+    width: 100px;
+}
+
+.sottocontainer .cards{
+    width: calc(100% / 2);
+    color: var(--white);
+}
+
+        /* CAMBIO BG COLOR CARDS */
+.cards-centrale{
+    background-color: var(--bianco-sporco) ;
+}
+.card-1{
+    background-color: var(--beige);
+}
+.card-2{
+    background-color: var(--marrone);
+}
+.card-3{
+    background-color: var(--viola);
+}
+.card-4{
+    background-color: var(--rosso);
+}
+.card-5{
+    background-color: var(--rosso2);
+}
+.card-6{
+    background-color: var(--light-blue);
+}
+.card-7{
+    background-color: var(--viola2);
+}
+.card-8{
+    background-color: var(--giallo);
+}
+        /* FINE BG COLOR */
 
 
 
