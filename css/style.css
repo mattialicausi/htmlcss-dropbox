@@ -159,15 +159,21 @@ h1{
     border-bottom: 1px solid grey;
 }
 
-/* .container-piani{
-    width: calc((100% - 20px) / 3);
-} */
+.container-piani{
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .border-piani{
     border: 1px solid grey;
     padding: 20px;
-    margin: 10px;
+    /* margin: 10px; */
     
+}
+
+.border-piani-2{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .piano h4{
@@ -232,6 +238,10 @@ h2{
     padding-bottom: 30px;
 }
 
+h4.padding-sotto{
+    padding-top: 10px;
+}
+
 .radio-btn-section1{
     font-size:20px;
     padding-bottom: 20px;
@@ -257,7 +267,8 @@ h2{
     border: 1px solid grey;
     padding: 20px 0;
     margin: 20px 0;
-    width: 100%;
+    width: 1000px;
+    margin-bottom: 150px;
 }
 .contenitore-sezione-2{
     width: 100%;
