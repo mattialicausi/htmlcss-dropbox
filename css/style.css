@@ -28,6 +28,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .flexbox-row{
@@ -45,6 +46,13 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+}
+
+        /* FLEXBOX PER SEZIONE 6 */
+.flexbox-6{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
         /* HEADER */
@@ -433,7 +441,65 @@ h4.padding-sotto{
 
         /* FINE SEZIONE 5 */
 
+
+
         /* INIZIO SEZIONE 6 */
+
+
+
+.sottocontainer-sezione-6{
+    width: calc(100% / 3);
+    background-color: yellow;
+    height: 500px;
+}
+
+#container-sezione-6{
+    max-width: 100%;
+}
+
+
+
+.dimensione-sezione-6{
+    width: 100%;
+}
+
+
+
+
+
+             /* INIZIO SEZIONE 7 */
+
+#dimensione-sezione-7{
+    width: 100%;
+    position: relative;
+    background-color: #B4D0E7;
+    min-height: 300px;
+    text-align: center;
+}
+
+.left-7{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 100px;
+    padding-left: 10px;
+}
+
+.right-7{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 100px;
+}
+
+.btn-sezione-7{
+    padding: 10px;
+    background-color: var(--white);
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+        /* FINE SEZIONE 7 */
 
 
 
