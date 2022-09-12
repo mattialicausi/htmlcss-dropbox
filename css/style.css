@@ -417,6 +417,25 @@ h4.padding-sotto{
 
        /* INIZIO SEZIONE 5 */
 
+#container-sezione-5{
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.titolo-sezione-5{
+    padding-bottom: 40px;
+}
+
+.sottotitolo-sezione-5{
+    color: var(--blue-link);
+}
+
+        /* FINE SEZIONE 5 */
+
+        /* INIZIO SEZIONE 6 */
+
+
 
 
 
