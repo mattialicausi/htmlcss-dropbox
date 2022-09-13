@@ -21,6 +21,7 @@
 }
 html{
     scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
 }
 
 *{
@@ -118,12 +119,6 @@ header{
     background-color: var(--bianco-sporco);
 }
 
-/* .btn{
-    color: var(--white);
-    background-color: var(--blue-link);
-    text-align: center;
-    max-height: 40px;
-} */
 
         /* MODIFICO FRECCIA IN ANCORA PER ABBONAMENTI */
     #ancora:hover{
@@ -548,7 +543,8 @@ h4.padding-sotto{
 .sottocontainer-sezione-6 img{
     width: 200px;
    padding-left: 60px;
-   padding-top: 40px;
+   padding-top: 50px;
+   padding-right: 40px;
 }
 
 .sottocontainer .cards{
@@ -558,6 +554,11 @@ h4.padding-sotto{
 .cards{
     width: 50%;
     height: 50%;
+    background-color: var(--white);
+}
+
+.filter{
+    filter: invert(1);
 }
 
 
@@ -636,6 +637,8 @@ h4.padding-sotto{
 .svg-centrale{
     margin-right: 80px;
 }
+
+
 
 
              /* INIZIO SEZIONE 7 */
@@ -744,14 +747,13 @@ h4.padding-sotto{
     list-style: none;
     background-color: var(--blue-link);
    opacity: 0;
-   padding: 5px;
+   padding: 10px;
+   text-align: center; 
 }
 
-.lingua:hover{
+
+.lingua:hover +  #container-languages{
     cursor: pointer;
-}
-
-.lingua:active + #container-languages{
     opacity: 1;
     transition: opacity 1s linear;
 }
