@@ -872,6 +872,40 @@ h4.padding-sotto{
 
     /* INIZIO PAGINA ACCEDI HTML */
 
+    .flex-nav-pg2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+
+    .logo-pg2 img{
+        width: 100px;
+    }
+
+    #container-nav-pg2{
+        background-color: var(--white);
+        border-bottom: 2px solid rgb(221, 221, 221);
+        width: 100%;
+    }
+
+    #btn-accedi-pg2{
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid var(--blue-link);
+        color: var(--blue-link);
+        background-color: whitesmoke;
+    }
+
+    #scarica-app{
+        color: var(--blue-link);
+        font-size: 20px;
+    }
+
+
 
 
 
