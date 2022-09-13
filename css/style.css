@@ -462,20 +462,57 @@ h4.padding-sotto{
 }
 
 .sottocontainer-sezione-6 img{
-    width: 100px;
+    width: 200px;
+   padding-left: 60px;
+   padding-top: 40px;
 }
 
 .sottocontainer .cards{
     width: calc(100% / 2);
-    color: var(--white);
+}
+
+.cards{
+    width: 50%;
+    height: 50%;
+}
+
+
+        /* CREO LINEA GRIGIA IN SEZIONE 6 */
+
+.container-linea-sezione-6{
+    position: relative;
+}
+
+.linea-sezione-6{
+    border: 1px solid var(--black);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-bianco-sezione-6{
+    background-color: var(--bianco-sporco);
+    width: 350px;
+    height: 10px;
+    position: absolute;
+    top: -5px;
+    right: 0;
+}
+.box-bianco-sezione-6-2{
+    background-color: var(--bianco-sporco);
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    top: -5px;
+    left: 0;
 }
 
         /* CAMBIO BG COLOR CARDS */
 .cards-centrale{
-    background-color: var(--bianco-sporco) ;
+    background-color: var(--bianco-sporco);
+    overflow-y: scroll;
 }
 .card-1{
     background-color: var(--beige);
+    border: 10px solid #D0E8CC;
 }
 .card-2{
     background-color: var(--marrone);
@@ -500,8 +537,21 @@ h4.padding-sotto{
 }
         /* FINE BG COLOR */
 
-
-
+        /* MODIFICO CARD CENTRALE */
+.paragrafo-card-centrale{
+    max-width: 400px;
+    padding: 20px 0;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.sottoparagrafo-card-centrale{
+    padding-left: 40px;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.svg-centrale{
+    margin-right: 80px;
+}
 
 
              /* INIZIO SEZIONE 7 */
