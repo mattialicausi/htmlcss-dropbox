@@ -232,9 +232,30 @@ h1{
    margin-bottom: 30px;
 
 }
+        /* CREO 3 CLASSI UGUALI CON WIDTH DIVERSO PER DARE LA STESSA 
+        DIMENSIONE AI TRE BOX PERCHE LA CENTRALE HA UN 
+        MARGIN AI BORDI PER SPAZIARLE */
 
 .box-bianco-linea-grigia{
     width: 200px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+
+.box-bianco-linea-grigia-2{
+    width: 220px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: -10px;
+    right: 0;
+}
+
+.box-bianco-linea-grigia-3{
+    width: 262px;
     height: 20px;
     background-color: white;
     position: absolute;
@@ -714,6 +735,7 @@ h4.padding-sotto{
     cursor: pointer;
 }
         /* NAV LANGUAGES FOOTER */
+
 #container-languages{
     width: 100px;
     height: 100px;
@@ -725,29 +747,25 @@ h4.padding-sotto{
    padding: 5px;
 }
 
-/* .lingua{
-    position: relative;
-    top: 0;
-    left: 0;
-} */
 .lingua:hover{
     cursor: pointer;
 }
+
 .lingua:active + #container-languages{
     opacity: 1;
     transition: opacity 1s linear;
 }
 
-@keyframes rotate{
-    0%{transform: rotate(0deg);}
-    100%{transform: rotate(180deg);}
-}
-.linua:active + .gira{
-    animation: rotate 2s linear;
+.lingua:hover .fa-caret-up{
+    transform: rotate(180deg);
 }
 
 
+        /* INSERISCO EFFETTO ROTAZIONE CARRET */
 
+.domanda:hover .fa-caret-down{
+    transform: rotate(180deg);
+}
 
         /* ANSWER SEZIONE 7 */
 
@@ -759,8 +777,8 @@ h4.padding-sotto{
 .domanda:hover .answer-sezione-7{
     cursor: pointer;
     opacity: 1;
-   
 }
+
 .domanda-1{
     margin-bottom: 20px;
 }
@@ -774,8 +792,8 @@ h4.padding-sotto{
 }
 
 .li-nav-2{
-    width: calc(100% / 2);
     padding: 5px;
+    text-align: center;
 }
 
 .li-nav-2:hover{
