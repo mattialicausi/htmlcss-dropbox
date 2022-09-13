@@ -872,6 +872,10 @@ h4.padding-sotto{
 
     /* INIZIO PAGINA ACCEDI HTML */
 
+    #container-body-pg-2{
+        height: 100vh;
+    }
+
     .flex-nav-pg2{
         display: flex;
         flex-flow: row wrap;
@@ -905,6 +909,33 @@ h4.padding-sotto{
         font-size: 20px;
     }
 
+            /* MODIFICO MAIN IN PG 2 */
+
+    #container-sect-1-pg2{
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .sezione-1-pg2{
+        background-color: rgb(242, 240, 236);
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        border: 3px solid rgba(242, 240, 236, 0.846);
+        position: relative;
+    }
+
+    .grassetto-sottolineato-pg2{
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    #cross{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 20px;
+    }
 
 
 
