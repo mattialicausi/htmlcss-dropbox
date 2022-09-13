@@ -840,6 +840,34 @@ h4.padding-sotto{
 }
 
 
+        /* NAV 2 DESTRA  INVERTO POSITION ABSOLUTE
+        IN RIGHT 0  E RICOPIO LE ALTRE PROPRIETA */
+ #container-nav-2-2{
+    display: none;
+    position: absolute;
+    top: 40;
+    right: 0;
+    white-space: nowrap;
+    width: 400px;
+}
+
+.sottonav-2{
+    position: relative;
+}
+
+.sottonav-2:hover  #container-nav-2-2{
+    display: block;
+    cursor: pointer;
+    z-index: 500;
+    background-color: var(--bianco-sporco);
+    color: var(--black);
+    padding-top: 30px;
+    font-size: 15px;
+}
+
+
+
+
 
 
 
