@@ -765,6 +765,58 @@ h4.padding-sotto{
     margin-bottom: 20px;
 }
 
+        /* MODIFICO NAV SOTTO NAV HEADER */
+
+.flex-nav-2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.li-nav-2{
+    width: calc(100% / 2);
+    padding: 5px;
+}
+
+.li-nav-2:hover{
+    text-decoration: underline;
+    color: var(--blue-link) ;
+}
+
+.right-nav-2{
+    padding-left: 20px;
+    
+}
+
+
+#container-nav-2{
+    display: none;
+    position: absolute;
+    top: 40;
+    left: 0;
+    width: 400px;
+}
+
+
+.li-nav-2-1{
+    font-weight: bold;
+}
+
+.sottonav{
+    position: relative;
+}
+
+
+.sottonav:hover  #container-nav-2{
+    display: block;
+    cursor: pointed;
+    z-index: 500;
+    background-color: var(--bianco-sporco);
+    color: var(--black);
+    padding-top: 30px;
+    font-size: 15px;
+}
+
 
 
 
