@@ -113,17 +113,17 @@ header{
     margin: 6px;
 }
 
-.nav-header ul li:hover{
+.nav-header ul .effect:hover{
     cursor: pointer;
     background-color: var(--bianco-sporco);
 }
 
-.btn{
+/* .btn{
     color: var(--white);
-    background-color: var(--blue);
+    background-color: var(--blue-link);
     text-align: center;
     max-height: 40px;
-}
+} */
 
         /* MODIFICO FRECCIA IN ANCORA PER ABBONAMENTI */
     #ancora:hover{
@@ -162,7 +162,7 @@ h1{
 
 .btn-jumbo{
     color: var(--white);
-    background-color: var(--blue);
+    background-color: var(--blue-link);
     text-align: center;
     max-height: 40px;
     padding: 8px;
@@ -680,6 +680,39 @@ h4.padding-sotto{
 }
 
 
+
+        /* AGGIUNGO EFFETTI NELLA PAGINA */
+
+.btn-abbonamenti:hover{
+    cursor: pointer;
+    background-color: var(--blue);
+}
+.btn-sezione-2:hover{
+     cursor: pointer;
+    background-color: var(--blue);
+}
+.btn-jumbo:hover{
+    cursor: pointer;
+    background-color: var(--blue);
+}
+
+
+.btn-sezione-3:hover{
+    cursor: pointer;
+    color: var(--black);
+    font-weight: bold;
+    background-color: var(--bianco-sporco);
+}
+
+.btn-sezione-7:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-color: var(--bianco-sporco);
+}
+
+.nav-footer ul li:hover{
+    cursor: pointer;
+}
 
 
 
