@@ -19,6 +19,9 @@
     --giallo: #FFD830;
    
 }
+html{
+    scroll-behavior: smooth;
+}
 
 *{
     margin: 0;
@@ -116,6 +119,16 @@ header{
     text-align: center;
     max-height: 40px;
 }
+
+        MODIFICO FRECCIA IN ANCORA PER ABBONAMENTI
+    #ancora:hover{
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
