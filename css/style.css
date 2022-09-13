@@ -938,6 +938,29 @@ h4.padding-sotto{
     }
 
 
+            /* SECTION 2 */
+
+    
+    #container-sect2-pg2{
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+
+    .img-world{
+        padding-top: 30px;
+        width: 300px;
+    }
+
+    #img-pg2{
+        width: calc(100% / 2);
+    }
+
+    #accedi{
+        width: calc(100% / 2);
+    }
+
+
 
 
 
