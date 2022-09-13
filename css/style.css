@@ -113,6 +113,11 @@ header{
     margin: 6px;
 }
 
+.nav-header ul li:hover{
+    cursor: pointer;
+    background-color: var(--bianco-sporco);
+}
+
 .btn{
     color: var(--white);
     background-color: var(--blue);
@@ -120,17 +125,10 @@ header{
     max-height: 40px;
 }
 
-        MODIFICO FRECCIA IN ANCORA PER ABBONAMENTI
+        /* MODIFICO FRECCIA IN ANCORA PER ABBONAMENTI */
     #ancora:hover{
     cursor: pointer;
 }
-
-
-
-
-
-
-
 
         /* ASSEGNO DIMENSIONI DENTRO JUMBO */
 
