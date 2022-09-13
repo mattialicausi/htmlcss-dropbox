@@ -713,10 +713,57 @@ h4.padding-sotto{
 .nav-footer ul li:hover{
     cursor: pointer;
 }
+        /* NAV LANGUAGES FOOTER */
+#container-languages{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    color: var(--bianco-sporco);
+    list-style: none;
+    background-color: var(--blue-link);
+   opacity: 0;
+   padding: 5px;
+}
+
+/* .lingua{
+    position: relative;
+    top: 0;
+    left: 0;
+} */
+.lingua:hover{
+    cursor: pointer;
+}
+.lingua:active + #container-languages{
+    opacity: 1;
+    transition: opacity 1s linear;
+}
+
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(180deg);}
+}
+.linua:active + .gira{
+    animation: rotate 2s linear;
+}
 
 
 
 
+        /* ANSWER SEZIONE 7 */
+
+.answer-sezione-7{
+    font-size: 15px;
+    opacity: 0;
+    margin-top: 20px;
+}
+.domanda:hover .answer-sezione-7{
+    cursor: pointer;
+    opacity: 1;
+   
+}
+.domanda-1{
+    margin-bottom: 20px;
+}
 
 
 
