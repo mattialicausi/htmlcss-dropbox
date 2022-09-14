@@ -707,9 +707,9 @@ h4.padding-sotto{
     color: var(--bianco-sporco);
     list-style: none;
     background-color: var(--blue-link);
-   opacity: 0;
-   padding: 10px;
-   text-align: center; 
+    opacity: 0;
+    padding: 10px;
+    text-align: center; 
 }
 
 .lingua:hover +  #container-languages{
@@ -1106,6 +1106,7 @@ footer{
         padding: 5px;
         color: grey;
         font-size: 15px;
+        margin-top: 5px;
 
     }
 
@@ -1113,6 +1114,49 @@ footer{
         background-color: var(--bianco-sporco);
         height: 200px;
     }
+    
+    .titolo-footer-2{
+        font-weight: bold;
+    }
+            /* EFFETTI PAG 2 */
+
+    #flex-nav-2 ul li:hover{
+        cursor: pointer;
+    }
+
+    #btn-accedi-pg2, #scarica-app:hover{
+        cursor: pointer;
+    }
+
+    #btn-accedi-pg2:hover{
+        cursor: pointer;
+        background: var(--blue-link);
+        color: white;
+    }
+
+    .btn-fine-credenziali:hover{
+        cursor: pointer;
+        background-color: var(--blue-link);
+    }
+    .password-dimenticata:hover{
+        cursor: pointer;
+        color: var(--blue-link);
+    }
+
+    .grassetto-sottolineato-pg2:hover{
+        color: var(--blue-link);
+    }
+
+    .sezione-1-pg2{
+        opacity: 1;
+    }
+
+    .fa-xmark:hover .sezione-1-pg2{
+        opacity: 0;
+        transition: opacity 1s linear; 
+        cursor: pointer;
+    }
+
 
 
 
