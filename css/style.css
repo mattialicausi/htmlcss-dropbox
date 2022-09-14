@@ -1152,12 +1152,6 @@ footer{
         color: var(--blue-link);
     }
 
-   
-
-    .fa-xmark:hover + #container-sezione-1-pg2{
-        opacity: 0;
-    }
-
     .apple:hover{
         cursor: pointer;
         background-color: var(--bianco-sporco);
