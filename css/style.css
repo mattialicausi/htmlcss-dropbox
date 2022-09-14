@@ -543,6 +543,9 @@ h4.padding-sotto{
     vertical-align: middle;
     filter: invert(0);
 }
+.paragrafo-card-centrale{
+    padding-bottom: 20px;
+}
 
         /* CREO LINEA GRIGIA IN SEZIONE 6 */
 
@@ -1124,8 +1127,9 @@ footer{
         cursor: pointer;
     }
 
-    #btn-accedi-pg2, #scarica-app:hover{
+     #scarica-app:hover{
         cursor: pointer;
+        color: var(--blue);
     }
 
     #btn-accedi-pg2:hover{
@@ -1144,17 +1148,26 @@ footer{
     }
 
     .grassetto-sottolineato-pg2:hover{
+        cursor: pointer;
         color: var(--blue-link);
     }
 
-    .sezione-1-pg2{
-        opacity: 1;
+   
+
+    .fa-xmark:hover + #container-sezione-1-pg2{
+        opacity: 0;
     }
 
-    .fa-xmark:hover .sezione-1-pg2{
-        opacity: 0;
-        transition: opacity 1s linear; 
+    .apple:hover{
         cursor: pointer;
+        background-color: var(--bianco-sporco);
+        color: var(--blue-link);
+    }
+
+    .google:hover{
+        cursor: pointer;
+        background-color: var(--bianco-sporco);
+        color: var(--blue-link);
     }
 
 
