@@ -825,6 +825,65 @@ h4.padding-sotto{
     text-decoration: none;
 }
 
+        /* MODIFICO FOOTER */
+
+footer{
+    width: 100%;
+    background-color: var(--black);
+    height: 500px;
+    color: white;
+    font-size: 15px;
+}
+
+.container-footer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-footer ul{
+    list-style: none;
+    padding: 10px;
+}
+       
+.nav-footer ul li{
+    padding: 10px;
+}
+
+.titolo-lista-footer{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+        /* CREO UNA LINEA CORTA METTENDO UN BOX CON COLORE BG SOPRA AD UN BOX CON MARGINE GRIGIO USANDO Z INDEX */
+
+.linea-grigia{
+    border: 1px solid grey;
+    margin-top: 30px;
+}
+
+.box-linea-grigia{
+    width: 850px;
+    height: 20px;
+    background-color: var(--black);
+    position: absolute;
+    top: -10px;
+    right: 0;
+    z-index: 100;
+}
+
+.container-linea{
+    position: relative;
+}
+        /* FINE LINEA */
+
+.lingua{
+    padding-top: 20px;
+    color: grey;
+    font-size: 15px;
+}
+      /* FINE FOOTER */
+
+
     /* INIZIO PAGINA ACCEDI HTML */
 
     #container-body-pg-2{
@@ -893,12 +952,12 @@ h4.padding-sotto{
 
             /* SECTION 2 */
     
-
-    
     #container-sect2-pg2{
         max-width: 1000px;
         margin: 0 auto;
         display: flex;
+       align-items: flex-start;
+       flex-wrap: wrap;
         
     }
 
@@ -913,65 +972,72 @@ h4.padding-sotto{
 
     #accedi{
         width: calc(100% / 2);
+        padding-top: 30px;
     }
 
-        /* MODIFICO FOOTER */
+   .color-azzurro{
+        color: var(--blue-link);
+   }
 
-footer{
-    width: 100%;
-    background-color: var(--black);
-    height: 500px;
-    color: white;
-    font-size: 15px;
-}
-
-.container-footer{
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.container-footer ul{
-    list-style: none;
-    padding: 10px;
-}
-       
-.nav-footer ul li{
-    padding: 10px;
-}
-
-.titolo-lista-footer{
+   .titolo-left, .accesso{
     font-size: 20px;
+   }
+
+   .accesso{
     font-weight: bold;
-}
+   }
 
-        /* CREO UNA LINEA CORTA METTENDO UN BOX CON COLORE BG SOPRA AD UN BOX CON MARGINE GRIGIO USANDO Z INDEX */
+    .google, .apple{
+        width: 500px;
+        border: 2px solid black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        position: relative;
+    }
 
-.linea-grigia{
-    border: 1px solid grey;
-    margin-top: 30px;
-}
+    .google i, .apple i{
+        position: absolute;
+        top: 5 px;
+        left: 10px;
+        color: var(--blue-link);
+        font-size: 20px;
+    }
 
-.box-linea-grigia{
-    width: 850px;
-    height: 20px;
-    background-color: var(--black);
-    position: absolute;
-    top: -10px;
-    right: 0;
-    z-index: 100;
-}
+    #btn-sistema-operativo{
+        margin-top: 30px;
+    }
 
-.container-linea{
-    position: relative;
-}
-        /* FINE LINEA */
+        /* LINEA */
 
-.lingua{
-    padding-top: 20px;
-    color: grey;
-    font-size: 15px;
-}
-      /* FINE FOOTER */
+     #parte-2{
+        width: 500px;
+        display: flex;
+        align-items: baseline;
+        padding-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .box-vuoto-1, .box-vuoto-2{
+        border: 1px solid grey;
+        width: 200px;
+        height: 1px;
+    }
+
+    .interlinea{
+        width: 100px;
+        text-align: center;
+        color: grey;
+    }
+
+
+
+  
+    
+
+
+   
 
 
 
