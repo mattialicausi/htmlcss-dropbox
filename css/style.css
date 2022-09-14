@@ -1081,6 +1081,41 @@ footer{
     }
 
 
+    /* MODIFICO FOOTER PG 2 */
+
+    #bordo-grigio{
+        border: 1px solid grey;
+        margin-top: 5px;
+       
+    }
+
+    #container-footer{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    #flex-nav-2{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+    }
+
+    #flex-nav-2 ul li{
+        list-style: none;
+        padding: 5px;
+        color: grey;
+        font-size: 15px;
+
+    }
+
+    #footer-pg-2{
+        background-color: var(--bianco-sporco);
+        height: 200px;
+    }
+
+
+
 
   
     
