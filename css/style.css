@@ -508,57 +508,25 @@ h4.padding-sotto{
 
         /* INIZIO SEZIONE 6 */
 
-/* .sottocontainer-sezione-6{
-    width: calc(100% / 3);
-    height: 300px;
-}
-
-#container-sezione-6{
-    max-width: 1440px;
-}
-
-
-.dimensione-sezione-6{
-    width: 100%;
-    margin-bottom: 150px;
-}
-
-.sottocontainer-sezione-6 img{
-    width: 200px;
-   padding-left: 60px;
-   padding-top: 50px;
-   padding-right: 40px;
-}
-
-.sottocontainer .cards{
-    width: calc(100% / 2);
-}
-
-.cards{
-    width: 50%;
-    height: 50%;
-    background-color: var(--white);
-} */
-        /* FLEXBOX PER SEZIONE 6 */
 
  .flexbox-6{
      display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 .wrap{
     flex-wrap: wrap;
 }
 
-.container-sezione-6{
+#container-sezione-6{
     width: 100%;
     margin-bottom: 150px;
 }
 .sottocontainer-sezione-6{
     width: calc(100% / 3);
     height: 32vw;
+    border: 1px solid black;
 }
-
 
 .cards{
     width: 50%;
@@ -577,10 +545,6 @@ h4.padding-sotto{
     vertical-align: middle;
     filter: invert(0);
 }
-
-/* .filter{
-    filter: invert(1);
-} */
 
         /* CREO LINEA GRIGIA IN SEZIONE 6 */
 
@@ -614,7 +578,8 @@ h4.padding-sotto{
 
 .cards-centrale{
     background-color: var(--bianco-sporco);
-    overflow-y: scroll;
+    overflow-y: auto;
+    padding: 20px;
 }
 .card-1{
     background-color: var(--beige);
@@ -642,25 +607,6 @@ h4.padding-sotto{
     background-color: var(--giallo);
 }
         /* FINE BG COLOR */
-
-        /* MODIFICO CARD CENTRALE */
-/* 
-.paragrafo-card-centrale{
-    max-width: 400px;
-    padding: 20px 0;
-    font-size: 15px;
-    margin: 0 auto;
-}
-
-.sottoparagrafo-card-centrale{
-    padding-left: 40px;
-    font-size: 15px;
-    margin: 0 auto;
-}
-
-.svg-centrale{
-    margin-right: 80px;
-} */
 
              /* INIZIO SEZIONE 7 */
 
@@ -949,9 +895,12 @@ h4.padding-sotto{
 
             /* SECTION 2 */
     
+
+    
     #container-sect2-pg2{
         max-width: 1000px;
         margin: 0 auto;
+        display: flex;
         
     }
 
