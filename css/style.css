@@ -1,4 +1,4 @@
-/* UTILITY */
+            /* UTILITY */
 
 :root{
     --light-blue: #B4D0E7;
@@ -50,13 +50,6 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-}
-
-        /* FLEXBOX PER SEZIONE 6 */
-.flexbox-6{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
 }
 
         /* HEADER */
@@ -118,7 +111,6 @@ header{
     cursor: pointer;
     background-color: var(--bianco-sporco);
 }
-
 
         /* MODIFICO FRECCIA IN ANCORA PER ABBONAMENTI */
     #ancora:hover{
@@ -270,8 +262,6 @@ h5{
     padding-bottom: 15px;
 }
 
-
-
         /* MODIFICO SPECIFICHE SECTION 1 */
 
         /* MODIFICO BUTTON */
@@ -372,8 +362,6 @@ h4.padding-sotto{
     min-height: 200px;
 }
 
-
-
         /* CREO LEFT RIGHT PER DIVIDERE WIDTH IN 30 E 70 % */
 
 #sezione-2-left{
@@ -414,7 +402,6 @@ h4.padding-sotto{
     font-weight: bold;
 }
 
-
 #icona-sezione-2{
     border-bottom: 1px solid grey;
     text-align: center;
@@ -422,7 +409,6 @@ h4.padding-sotto{
 }
 
         /* FINE SEZIONE 2 */
-
 
             /* SEZIONE 3 */
     
@@ -474,9 +460,8 @@ h4.padding-sotto{
 
         /* FINE SEZIONE 3 */
 
-            /* SEZIONE 4 */
+            /* SEZIONE 4 */  /* GENERALI */
 
-        /* GENERALI */
 
 #container-sezione-4{
     width: 1000px;
@@ -521,11 +506,9 @@ h4.padding-sotto{
 
         /* FINE SEZIONE 5 */
 
-
-
         /* INIZIO SEZIONE 6 */
 
-.sottocontainer-sezione-6{
+/* .sottocontainer-sezione-6{
     width: calc(100% / 3);
     height: 300px;
 }
@@ -555,12 +538,49 @@ h4.padding-sotto{
     width: 50%;
     height: 50%;
     background-color: var(--white);
+} */
+        /* FLEXBOX PER SEZIONE 6 */
+
+ .flexbox-6{
+     display: flex;
+    flex-flow: row nowrap;
 }
 
-.filter{
+.wrap{
+    flex-wrap: wrap;
+}
+
+.container-sezione-6{
+    width: 100%;
+    margin-bottom: 150px;
+}
+.sottocontainer-sezione-6{
+    width: calc(100% / 3);
+    height: 32vw;
+}
+
+
+.cards{
+    width: 50%;
+    height: 16vw;
+    line-height: 16vw;
+    text-align: center;
+}
+
+.cards img{
+    width: 50%;
+    vertical-align: middle;
     filter: invert(1);
 }
+.cards-centrale img{
+    width: 50%;
+    vertical-align: middle;
+    filter: invert(0);
+}
 
+/* .filter{
+    filter: invert(1);
+} */
 
         /* CREO LINEA GRIGIA IN SEZIONE 6 */
 
@@ -591,6 +611,7 @@ h4.padding-sotto{
 }
 
         /* CAMBIO BG COLOR CARDS */
+
 .cards-centrale{
     background-color: var(--bianco-sporco);
     overflow-y: scroll;
@@ -623,23 +644,23 @@ h4.padding-sotto{
         /* FINE BG COLOR */
 
         /* MODIFICO CARD CENTRALE */
+/* 
 .paragrafo-card-centrale{
     max-width: 400px;
     padding: 20px 0;
     font-size: 15px;
     margin: 0 auto;
 }
+
 .sottoparagrafo-card-centrale{
     padding-left: 40px;
     font-size: 15px;
     margin: 0 auto;
 }
+
 .svg-centrale{
     margin-right: 80px;
-}
-
-
-
+} */
 
              /* INIZIO SEZIONE 7 */
 
@@ -678,9 +699,6 @@ h4.padding-sotto{
     margin-right: 10px;
 }
 
-
-
-
         /* FINE SEZIONE 7 */
 
         /*  INIZIO SEZIONE 8 */
@@ -703,23 +721,22 @@ h4.padding-sotto{
     padding-left: 300px;
 }
 
-
-
         /* AGGIUNGO EFFETTI NELLA PAGINA */
 
 .btn-abbonamenti:hover{
     cursor: pointer;
     background-color: var(--blue);
 }
+
 .btn-sezione-2:hover{
      cursor: pointer;
     background-color: var(--blue);
 }
+
 .btn-jumbo:hover{
     cursor: pointer;
     background-color: var(--blue);
 }
-
 
 .btn-sezione-3:hover{
     cursor: pointer;
@@ -751,7 +768,6 @@ h4.padding-sotto{
    text-align: center; 
 }
 
-
 .lingua:hover +  #container-languages{
     cursor: pointer;
     opacity: 1;
@@ -761,7 +777,6 @@ h4.padding-sotto{
 .lingua:hover .fa-caret-up{
     transform: rotate(180deg);
 }
-
 
         /* INSERISCO EFFETTO ROTAZIONE CARRET */
 
@@ -776,6 +791,7 @@ h4.padding-sotto{
     opacity: 0;
     margin-top: 20px;
 }
+
 .domanda:hover .answer-sezione-7{
     cursor: pointer;
     opacity: 1;
@@ -808,7 +824,6 @@ h4.padding-sotto{
     padding-right: 10px;
 } 
 
-
 #container-nav-2{
     display: none;
     position: absolute;
@@ -818,8 +833,6 @@ h4.padding-sotto{
     width: 400px;
 }
 
-
-
 .li-nav-2-1{
     font-weight: bold;
 }
@@ -827,7 +840,6 @@ h4.padding-sotto{
 .sottonav{
     position: relative;
 }
-
 
 .sottonav:hover  #container-nav-2{
     display: block;
@@ -839,9 +851,9 @@ h4.padding-sotto{
     font-size: 15px;
 }
 
-
         /* NAV 2 DESTRA  INVERTO POSITION ABSOLUTE
         IN RIGHT 0  E RICOPIO LE ALTRE PROPRIETA */
+
  #container-nav-2-2{
     display: none;
     position: absolute;
@@ -869,7 +881,6 @@ h4.padding-sotto{
     text-decoration: none;
 }
 
-
     /* INIZIO PAGINA ACCEDI HTML */
 
     #container-body-pg-2{
@@ -884,7 +895,6 @@ h4.padding-sotto{
         align-items: center;
         padding-top: 30px;
     }
-
 
     .logo-pg2 img{
         width: 100px;
@@ -937,9 +947,7 @@ h4.padding-sotto{
         font-size: 20px;
     }
 
-
             /* SECTION 2 */
-
     
     #container-sect2-pg2{
         max-width: 1000px;
@@ -959,31 +967,6 @@ h4.padding-sotto{
     #accedi{
         width: calc(100% / 2);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         /* MODIFICO FOOTER */
 
@@ -1015,6 +998,7 @@ footer{
 }
 
         /* CREO UNA LINEA CORTA METTENDO UN BOX CON COLORE BG SOPRA AD UN BOX CON MARGINE GRIGIO USANDO Z INDEX */
+
 .linea-grigia{
     border: 1px solid grey;
     margin-top: 30px;
@@ -1033,7 +1017,6 @@ footer{
 .container-linea{
     position: relative;
 }
-
         /* FINE LINEA */
 
 .lingua{
