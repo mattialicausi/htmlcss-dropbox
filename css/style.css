@@ -262,6 +262,14 @@ h5{
     padding-bottom: 15px;
 }
 
+.indentazione{
+    display: flex;
+}
+
+.padding-icona{
+    padding-right: 6px;
+}
+
         /* MODIFICO SPECIFICHE SECTION 1 */
 
         /* MODIFICO BUTTON */
